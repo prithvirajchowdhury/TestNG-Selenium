@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="CHROME TEST"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="0.908">
+  <properties />
+  
+  
+            <testcase name="testMethod" time="0.908" classname="Tests.Test1" />
+      
+</testsuite>

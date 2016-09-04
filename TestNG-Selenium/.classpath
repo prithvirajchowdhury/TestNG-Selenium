@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="D:/git/TestNG-Selenium/TestNG-Selenium/Lib/guice-3.0.jar"/>
+	<classpathentry kind="lib" path="D:/git/TestNG-Selenium/TestNG-Selenium/Lib/jcommander-1.48.jar"/>
+	<classpathentry kind="lib" path="D:/git/TestNG-Selenium/TestNG-Selenium/Lib/poi-3.14-beta1-20151223.jar"/>
+	<classpathentry kind="lib" path="D:/git/TestNG-Selenium/TestNG-Selenium/Lib/reportng-1.1.4.jar"/>
+	<classpathentry kind="lib" path="D:/git/TestNG-Selenium/TestNG-Selenium/Lib/selenium-server-standalone-2.52.0.jar"/>
+	<classpathentry kind="lib" path="D:/git/TestNG-Selenium/TestNG-Selenium/Lib/testng-6.9.4.jar"/>
+	<classpathentry kind="lib" path="D:/git/TestNG-Selenium/TestNG-Selenium/Lib/velocity-dep-1.4.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="20" name="Failed suite [Suite1]" parallel="tests">
+  <parameter name="browser" value="chrome"/>
+  <parameter name="url" value="https://www.google.co.in"/>
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="Reporting.Report"/>
+  </listeners>
+  <test name="CHROME TEST(failed)" parallel="tests">
+    <parameter name="browser" value="chrome"/>
+    <parameter name="url" value="https://www.google.co.in"/>
+    <classes>
+      <class name="Tests.Test1">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="afterSuite"/>
+          <include name="afterClass"/>
+          <include name="beforeTest"/>
+          <include name="beforeSuite"/>
+          <include name="beforeClass"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="testMethod"/>
+        </methods>
+      </class> <!-- Tests.Test1 -->
+    </classes>
+  </test> <!-- CHROME TEST(failed) -->
+</suite> <!-- Failed suite [Suite1] -->
